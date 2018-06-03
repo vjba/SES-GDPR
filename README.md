@@ -3,14 +3,19 @@ Simple script(s) to remove sensitive information from POS systems in SES in comf
 
 Automatically destroys ID proof images and finance agreement pdf documents when system is idle for `20 minutes`
 
+A desktop shortcut is installed giving the option for manual operation
 
-## Instructions
 
-1.  Download installation scripts as a zip [here](https://github.com/vjba/SES-GDPR/archive/1.0.zip), or check the [releases page](https://github.com/vjba/SES-GDPR/releases)
-2.  Extract / Unzip the files
-3.  Run the INSTALL.BAT file
-4.  DONE!   
+## Installation Instructions
 
+1.  Download the latest installation scripts as a zip from the [releases page](https://github.com/vjba/SES-GDPR/releases)
+2.  Extract the files
+3.  Run `INSTALL.BAT`
+
+## Removal Instructions
+
+1.  Navigate to your user profile `C:\Users\%UserProfile%\`
+2.  Run `UNINSTALL.BAT`
 
 ### Notes
 
