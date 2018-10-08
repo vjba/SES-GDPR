@@ -6,6 +6,13 @@ Automatically destroys ID proof images and finance agreement pdf documents when 
 A desktop shortcut is installed giving the option for manual operation
 
 
+## Requirements
+
+1.  Windows 10
+2.  Save paths are set to default locations for the Camera App: `C:\Users\%UserProfile%\Pictures\Camera Roll`
+3.  Download save path is set to default on Microsoft Edge and Google Chrome: `C:\Users\%UserProfile%\Downloads`
+
+
 ## Installation Instructions
 
 1.  Download the latest installation scripts as a zip from the [releases page](https://github.com/vjba/SES-GDPR/releases)
@@ -20,8 +27,5 @@ A desktop shortcut is installed giving the option for manual operation
 ### Notes
 
 * All files and/or directories removed by the script will be _**PERMANENTLY**_ destroyed on execution, this saves users having to perform the extra steps necessary to empty the recycle bin on a regular basis.
-* These scripts assume the POS system is Windows 10 _**and**_ the save paths for the Camera app and browser downloads are set to the defaults:
-  * `C:\Users\%UserProfile%\Downloads` for any .pdf finance agreement documents downloaded from browsers.
-  * `C:\Users\%UserProfile%\Pictures\Camera Roll` for any images captured via the Windows 10 Camera app.
 * These scripts do not require any elevated privileges at all, so any user can make use of them.
 * These scripts come with **NO WARRANTY** whatsoever, please [**READ THE LICENSE**](https://github.com/vjba/SES-GDPR/blob/master/LICENSE) for more information.
